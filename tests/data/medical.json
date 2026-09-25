@@ -1,0 +1,9 @@
+{
+    "page_title": "Clinical diagnosis assistant",
+    "technologies": [],
+    "ml_endpoints": [
+        "/api/patient",
+        "/api/diagnosis"
+    ],
+    "app_description": "patient ehr fhir clinical"
+}

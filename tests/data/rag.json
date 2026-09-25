@@ -1,0 +1,9 @@
+{
+    "page_title": "RAG Knowledge Assistant",
+    "technologies": [],
+    "ml_endpoints": [
+        "/api/retrieve",
+        "/api/embed"
+    ],
+    "app_description": "vector retrieval"
+}

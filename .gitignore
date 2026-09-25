@@ -1,0 +1,62 @@
+# macOS
+.DS_Store
+**/.DS_Store
+._*
+**/._*
+
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment / secrets
+multiagent/.env
+.env
+.env.*
+
+# Uploads & local media (not source)
+uploads/*
+!uploads/.gitkeep
+*.wav
+*.mp3
+
+# Node (frontend)
+node_modules/
+multi-agent-llm/dist/
+multi-agent-llm/.angular/
+
+# Misc
+*.log
+.cache/
+
+# Secrets / local runtime artifacts
+*.key
+*.pem
+*.sqlite
+*.sock
+
+
+# Local Claude Code tooling
+.claude/
+
+# Vendored Autogen fork - unused by scanner, not part of SURFACE
+multiagent/Autogen/

@@ -1,0 +1,9 @@
+{
+    "page_title": "Support Helpdesk",
+    "technologies": [],
+    "ml_endpoints": [
+        "/api/ticket",
+        "/api/refund"
+    ],
+    "app_description": "support ticket assistant"
+}
